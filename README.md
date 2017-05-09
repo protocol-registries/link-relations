@@ -6,6 +6,7 @@ To register a relation type (or request a change to an existing one), you can:
 
 * [File an issue](https://github.com/link-relations/registry/issues/new)
 * [Make a pull request](https://github.com/link-relations/registry/compare)
+* Send e-mail to [the link-relations mailing list](https://www.ietf.org/mailman/listinfo/link-relations)
 
 See [RFC5988bis](https://mnot.github.io/I-D/rfc5988bis/) for more information about link relations; in particular, the [requirements for registered relation types](https://mnot.github.io/I-D/rfc5988bis/#registered).
 
