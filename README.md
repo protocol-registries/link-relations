@@ -2,7 +2,7 @@
 
 This repository manages requests to add and change entries in the [link relation type IANA registry](https://www.iana.org/assignments/link-relations/link-relations.xhtml). See [its contribution terms](.github/CONTRIBUTING.md).
 
-To register a new relation type (or request a change to an existing one), you can:
+To request registration of a new relation type (or a change to an existing one), you can:
 
 * [File an issue](https://github.com/link-relations/registry/issues/new),
 * [Make a pull request](https://github.com/link-relations/registry/compare), or
