@@ -4,12 +4,12 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2017-02-21</updated>
+  <updated>2017-08-23</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
-  <xref type="rfc" data="rfc5988"/>
-  <registration_rule>Expert Review</registration_rule>
+  <xref type="draft" data="RFC-nottingham-rfc5988bis-08"/>
+  <registration_rule>Specification Required</registration_rule>
   <expert>Mark Nottingham, Julian Reschke, Jan Algermissen</expert>  
   
   <record>
@@ -198,7 +198,7 @@
     <value>first</value>
     <description>An IRI that refers to the furthest preceding resource
     in a series of resources.</description>
-    <spec><xref type="rfc" data="rfc5988"/></spec>
+    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Originally requested by Mark Nottingham in December
       2004.
@@ -257,7 +257,7 @@
     <value>last</value>
     <description>An IRI that refers to the furthest following resource
       in a series of resources.</description>
-    <spec><xref type="rfc" data="rfc5988"/></spec>
+    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
     <note>This relation type registration did not indicate a
       reference. Originally requested by Mark Nottingham in December
       2004.
@@ -353,7 +353,7 @@
   <record>
     <value>payment</value>
     <description>Indicates a resource where payment is accepted.</description>
-    <spec><xref type="rfc" data="rfc5988"/></spec>
+    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus
@@ -591,7 +591,7 @@ profile URIs.</note>
     <description>Refers to a parent document in a hierarchy of
       documents.
     </description>
-    <spec><xref type="rfc" data="rfc5988"/></spec>
+    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Requested by Noah Slater.</note>
   </record>
@@ -638,14 +638,6 @@ profile URIs.</note>
   </record>
  
 </registry>
-  
-  <registry id="link-relations-2">
-    <title>Link Relation Application Data</title>
-    <xref type="rfc" data="rfc5988"/>
-    <registration_rule>Expert Review</registration_rule>
-    <expert>Mark Nottingham, Julian Reschke, Jan Algermissen</expert>
-    
-   </registry>
   
   <people/>
 </registry>
