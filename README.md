@@ -10,7 +10,7 @@ To request registration of a new relation type (or a change to an existing one),
 
 Please make **only one request** per issue or pull.
 
-See [RFC5988bis](https://mnot.github.io/I-D/rfc5988bis/) for more information about link relations; in particular, the [requirements for registered relation types](https://mnot.github.io/I-D/rfc5988bis/#registered).
+See [RFC8288](https://tools.ietf.org/html/rfc8288) for more information about link relations; in particular, the [requirements for registered relation types](https://tools.ietf.org/html/rfc8288#registered).
 
 Once approved, your request will be incorporated both into this repository, and into the IANA registry, whereupon it will be officially registered.
 
