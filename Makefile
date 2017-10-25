@@ -10,7 +10,7 @@ diff: tmp.xml
 	diff link-relations.xml tmp.xml
 
 tmp.xml:
-	curl -Ss -o tmp.xml $REG_URL
+	curl -Ss -o tmp.xml $(REG_URL)
 
 .PHONY: clean
 clean:
