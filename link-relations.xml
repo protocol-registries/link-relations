@@ -69,6 +69,12 @@
   </record>
   
   <record>
+    <value>cite-as</value>
+    <description>Indicates that the link target is preferred over the link context for the purpose of referencing.</description>
+    <spec><xref type="uri" data="https://datatracker.ietf.org/doc/draft-vandesompel-citeas/"/></spec>
+  </record>
+
+  <record>
     <value>collection</value>
     <description>The target IRI points to a resource which represents the collection resource for the context IRI.</description>
     <spec><xref type="rfc" data="rfc6573"/></spec>
