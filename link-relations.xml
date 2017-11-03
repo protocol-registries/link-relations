@@ -4,7 +4,7 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2017-10-26</updated>
+  <updated>2017-08-23</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
@@ -68,12 +68,6 @@
     <spec><xref type="uri" data="http://www.w3.org/TR/1999/REC-html401-19991224"/></spec>
   </record>
   
-  <record>
-    <value>cite-as</value>
-    <description>Indicates that the link target is preferred over the link context for the purpose of referencing.</description>
-    <spec><xref type="uri" data="https://datatracker.ietf.org/doc/draft-vandesompel-citeas/"/></spec>
-  </record>
-
   <record>
     <value>collection</value>
     <description>The target IRI points to a resource which represents the collection resource for the context IRI.</description>
