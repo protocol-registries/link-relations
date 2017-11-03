@@ -4,13 +4,16 @@
 <registry xmlns="http://www.iana.org/assignments" id="link-relations">
   <title>Link Relations</title>
   <created>2005-08-26</created>
-  <updated>2017-08-23</updated>
+  <updated>2017-10-26</updated>
 
 <registry id="link-relations-1">
   <title>Link Relation Types</title>
-  <xref type="draft" data="RFC-nottingham-rfc5988bis-08"/>
+  <xref type="rfc" data="rfc8288"/>
   <registration_rule>Specification Required</registration_rule>
-  <expert>Mark Nottingham, Julian Reschke, Jan Algermissen</expert>  
+  <expert>Mark Nottingham, Julian Reschke, Jan Algermissen</expert>
+  <note>New link relations, along with changes to existing relations, can be requested 
+using the <xref type="uri" data="https://github.com/link-relations/registry">registry interface</xref> or the mailing list defined in <xref type="rfc" data="rfc8288"/>.
+  </note>  
   
   <record>
     <value>about</value>
@@ -68,6 +71,12 @@
     <spec><xref type="uri" data="http://www.w3.org/TR/1999/REC-html401-19991224"/></spec>
   </record>
   
+  <record date="2017-10-26">
+    <value>cite-as</value>		
+    <description>Indicates that the link target is preferred over the link context for the purpose of referencing.</description>		
+    <spec><xref type="draft" data="draft-vandesompel-citeas"/></spec>		
+  </record>
+  
   <record>
     <value>collection</value>
     <description>The target IRI points to a resource which represents the collection resource for the context IRI.</description>
@@ -113,8 +122,6 @@
       item(s) in a collection of resources.</description>
     <spec><xref type="rfc" data="rfc5005"/></spec>
   </record>
-  
-  
   
   <record>
     <value>describedby</value>
@@ -198,7 +205,7 @@
     <value>first</value>
     <description>An IRI that refers to the furthest preceding resource
     in a series of resources.</description>
-    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
+    <spec><xref type="rfc" data="rfc8288"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Originally requested by Mark Nottingham in December
       2004.
@@ -257,7 +264,7 @@
     <value>last</value>
     <description>An IRI that refers to the furthest following resource
       in a series of resources.</description>
-    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
+    <spec><xref type="rfc" data="rfc8288"/></spec>
     <note>This relation type registration did not indicate a
       reference. Originally requested by Mark Nottingham in December
       2004.
@@ -353,7 +360,7 @@
   <record>
     <value>payment</value>
     <description>Indicates a resource where payment is accepted.</description>
-    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
+    <spec><xref type="rfc" data="rfc8288"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Requested by Joshua Kinberg and Robert Sayre.  It is
       meant as a general way to facilitate acts of payment, and thus
@@ -591,7 +598,7 @@ profile URIs.</note>
     <description>Refers to a parent document in a hierarchy of
       documents.
     </description>
-    <spec><xref type="draft" data="RFC-nottingham-rfc5988bis-08"/></spec>
+    <spec><xref type="rfc" data="rfc8288"/></spec>
     <note>This relation type registration did not indicate a
       reference.  Requested by Noah Slater.</note>
   </record>
