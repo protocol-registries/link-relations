@@ -255,6 +255,96 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   </record>
   
   <record>
+    <value>intervalAfter</value>
+    <description>refers to a resource associated with a time interval that ends before the beginning of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalAfter"/> section 4.2.21</spec>
+  </record>
+ 
+  <record>
+    <value>intervalBefore</value>
+    <description>refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalBefore"/> section 4.2.22</spec>
+  </record>
+  
+  <record>
+    <value>intervalContains</value>
+    <description>refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalContains"/> section 4.2.23</spec>
+  </record>
+  
+  <record>
+    <value>intervalDisjoint</value>
+    <description>refers to a resource associated with a time interval that begins after the end of the time interval associated with the context resource, or ends before the beginning of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalDisjoint"/> section 4.2.24</spec>
+  </record>
+  
+  <record>
+    <value>intervalDuring</value>
+    <description>refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalDuring"/> section 4.2.25</spec>
+  </record>
+  
+  <record>
+    <value>intervalEquals</value>
+    <description>refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalEquals"/> section 4.2.26</spec>
+  </record>
+  
+  <record>
+    <value>intervalFinishedBy</value>
+    <description>refers to a resource associated with a time interval that begins after the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalFinishedBy"/> section 4.2.27</spec>
+  </record>
+  
+  <record>
+    <value>intervalFinishes</value>
+    <description>refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and whose end coincides with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalFinishes"/> section 4.2.28</spec>
+  </record>
+  
+  <record>
+    <value>intervalIn</value>
+    <description>refers to a resource associated with a time interval that begins before or is coincident with the beginning of the time interval associated with the context resource, and ends after or is coincident with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalIn"/> section 4.2.29</spec>
+  </record>
+  
+  <record>
+    <value>intervalMeets</value>
+    <description>refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalMeets"/> section 4.2.30</spec>
+  </record>
+  
+  <record>
+    <value>intervalMetBy</value>
+    <description>refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalMetBy"/> section 4.2.31</spec>
+  </record>
+  
+  <record>
+    <value>intervalOverlappedBy</value>
+    <description>refers to a resource associated with a time interval that begins before the beginning of the time interval associated with the context resource, and ends after the beginning of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalOverlappedBy"/> section 4.2.32</spec>
+  </record>
+  
+  <record>
+    <value>intervalOverlaps</value>
+    <description>refers to a resource associated with a time interval that begins before the end of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalOverlaps"/> section 4.2.33</spec>
+  </record>
+  
+  <record>
+    <value>intervalStartedBy</value>
+    <description>refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends before the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalStartedBy"/> section 4.2.34</spec>
+  </record>
+  
+  <record>
+    <value>intervalStarts</value>
+    <description>refers to a resource associated with a time interval whose beginning coincides with the beginning of the time interval associated with the context resource, and ends after the end of the time interval associated with the context resource</description>
+    <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalStarts"/> section 4.2.35</spec>
+  </record>
+  
+  <record>
     <value>item</value>
     <description>The target IRI points to a resource that is a member of the collection represented by the context IRI.</description>
     <spec><xref type="rfc" data="rfc6573"/></spec>
