@@ -109,11 +109,18 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
     link's context.</description>
     <spec><xref type="uri" data="http://www.w3.org/TR/1999/REC-html401-19991224"/></spec>
   </record>
-  
+
   <record>
     <value>create-form</value>
     <description>The target IRI points to a resource where a submission form can be obtained.</description>
     <spec><xref type="rfc" data="rfc6861"/></spec>
+  </record>
+
+  <record>
+    <value>credits</value>
+    <description>Denotes a resource that lists the names of the people who contributed to some part or other of a website or Web application, especially those who would not ordinarily be credited in the main text of the site.</description>
+    <spec><xref type="uri" data="https://creditstxt.com/"/></spec>
+    <note>Examples: authors of open-source frameworks and components, website themes and stylesheets, visual design, typography, etc.</note>
   </record>
   
   <record>
