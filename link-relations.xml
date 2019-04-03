@@ -118,7 +118,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
 
   <record>
     <value>credits</value>
-    <description>Denotes a resource that lists the names of the people who contributed to some part or other of a resource or collection of resources, including but not limited to a website or Web application. An explicit credits link supplements any ad-hoc credits in the main body of the referring resource, affording a space for those who would not ordinarily be credited therein.</description>
+    <description>Denotes a resource that lists the names of the people who contributed to some part or other of a resource or collection of resources, such as a website or Web application. An explicit credits link supplements any ad-hoc credits in the main body of the referring resource, affording a space for those who would not ordinarily be credited in the main body.</description>
     <spec><xref type="uri" data="https://creditstxt.com/"/></spec>
     <note>Examples: authors of open-source frameworks and components, website themes and stylesheets, visual design, typography, etc.</note>
   </record>
