@@ -5,10 +5,9 @@ This repository manages requests to add and change entries in the [link relation
 To request registration of a new relation type (or a change to an existing one), you can:
 
 * [File an issue](https://github.com/link-relations/registry/issues/new),
-* [Make a pull request](https://github.com/link-relations/registry/compare), or
 * Send e-mail to [the link-relations mailing list](https://www.ietf.org/mailman/listinfo/link-relations).
 
-Please make **only one request** per issue or pull.
+Please do not use pull requests, and make **only one request** per issue.
 
 See [RFC8288](https://tools.ietf.org/html/rfc8288) for more information about link relations; in particular, the [requirements for registered relation types](https://tools.ietf.org/html/rfc8288#registered).
 
