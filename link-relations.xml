@@ -316,7 +316,7 @@ using the <xref type="uri" data="https://github.com/link-relations/registry">reg
   
   <record>
     <value>intervalMetBy</value>
-    <description>refers to a resource associated with a time interval whose beginning coincides with the end of the time interval associated with the context resource</description>
+    <description>refers to a resource associated with a time interval whose end coincides with the beginning of the time interval associated with the context resource</description>
     <spec><xref type="uri" data="https://www.w3.org/TR/owl-time/#time:intervalMetBy"/> section 4.2.31</spec>
   </record>
   
