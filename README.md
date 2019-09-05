@@ -1,6 +1,6 @@
-# Link Relation Registry Interface
+# Link Relation Registration Requests
 
-This repository manages requests to add and change entries in the [link relation type IANA registry](https://www.iana.org/assignments/link-relations/). Please note our [contribution terms](.github/CONTRIBUTING.md).
+This repository's issues list manages requests to add and change entries in the [link relation type IANA registry](https://www.iana.org/assignments/link-relations/). Please note our [contribution terms](.github/CONTRIBUTING.md).
 
 Your Experts are currently @algermissen, @mnot, and @reschke.
 
