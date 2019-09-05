@@ -2,7 +2,7 @@
 
 This repository's issues list manages requests to add and change entries in the [link relation type IANA registry](https://www.iana.org/assignments/link-relations/). Please note our [contribution terms](.github/CONTRIBUTING.md).
 
-Your Experts are currently @algermissen, @mnot, and @reschke.
+Your Experts are currently [@algermissen](https://github.com/algermissen), [@mnot](https://github.com/mnot), and [@reschke](https://github.com/reschke).
 
 To request registration of a new relation type (or a change to an existing one), you can:
 
