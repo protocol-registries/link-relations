@@ -1,0 +1,6 @@
+{
+    "group": "Link Relations Registry",
+    "primary": true,
+    "repo_type": "registry",
+    "issue_summary_to": ["mnot@mnot.net"]
+}
