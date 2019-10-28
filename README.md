@@ -12,3 +12,11 @@ To request registration of a new relation type (or a change to an existing one),
 See [RFC8288](https://tools.ietf.org/html/rfc8288) for more information about link relations; in particular, the [requirements for registered relation types](https://tools.ietf.org/html/rfc8288#registered). Note that a [specification is required](https://tools.ietf.org/html/rfc8126#section-4.6).
 
 Once approved, your request will be incorporated into the IANA registry, whereupon it will be officially registered.
+
+## Describing Link Relations
+
+There are many ways to fill out the `description` field, but in general it's good if it aligns with the terminology in [RFC8288](https://tools.ietf.org/html/rfc8288). Some examples:
+
+* Refers to a resource that can be used to `verb` the link's context.
+* The target IRI points to a resource where a `descriptor` resource for the link context can be obtained.
+* Refers to a resource providing `descriptor` about the link's context.
