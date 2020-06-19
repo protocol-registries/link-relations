@@ -6,7 +6,7 @@ Your [Experts](https://tools.ietf.org/html/rfc8126#section-4.6) are currently [@
 
 To request registration of a new relation type (or a change to an existing one), you can:
 
-* [File an issue](https://github.com/protocol-registries/link-relations/issues/new) (preferred), or
+* [File an issue](https://github.com/protocol-registries/link-relations/issues/new/choose) (preferred), or
 * Send e-mail to [the link-relations mailing list](https://www.ietf.org/mailman/listinfo/link-relations).
 
 See [RFC8288](https://tools.ietf.org/html/rfc8288) for more information about link relations; in particular, the [requirements for registered relation types](https://tools.ietf.org/html/rfc8288#registered). Note that a [specification is required](https://tools.ietf.org/html/rfc8126#section-4.6).
