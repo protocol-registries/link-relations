@@ -20,3 +20,17 @@ There are many ways to fill out the `description` field, but in general it's goo
 * Refers to a resource that can be used to `verb` the link's context.
 * The target IRI points to a resource where a `descriptor` resource for the link context can be obtained.
 * Refers to a resource providing `descriptor` about the link's context.
+
+## Suitable Specification References
+
+This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reaonable plan to promote specification stability.
+
+## When to Register
+
+Generally, a registration request should be made when your document is mature enough for wide review. 
+
+If your reference is an Internet-Draft, that means when it's adopted by a stream (e.g., the IETF stream, the Independent stream), not beforehand. At that point, a provisional registration can be made, becoming permanent when it becomes and RFC (if appropriate).
+
+If your reference is in another standards body, a provisional registration can be made before the document is finalised, becoming permanent once it is published (if appropriate).
+
+If your reference is from an Open Source project, community or commerical group, a request can be made once your document becomes public, but anticipatory requests are discouraged, and may be refused or delayed.
