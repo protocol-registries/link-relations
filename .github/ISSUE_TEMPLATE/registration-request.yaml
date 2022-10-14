@@ -1,4 +1,5 @@
 name: Registration Request
+description: 'Request a new registration.'
 title: 'Registration Request: [ your link relation name ]'
 labels: new registration
 body:

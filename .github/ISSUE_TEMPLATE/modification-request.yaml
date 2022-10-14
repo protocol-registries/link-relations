@@ -1,4 +1,5 @@
 name: Modification Request
+description: 'Modify an existing registration.'
 title: 'Modification request: [relation name]'
 labels: modification
 body:
