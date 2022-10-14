@@ -1,0 +1,31 @@
+name: Modification Request
+title: 'Modification request: [relation name]'
+labels: modification
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Relation Name
+      description: The link relation name that you wish to modify.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: Requested Changes
+      description: What needs to change in the registration.
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: Relationship
+      description: What is your relationship to the original registrant?
+    validations:
+      required: true
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Is there any additional information we should know? This will not be included in the registry.
+
