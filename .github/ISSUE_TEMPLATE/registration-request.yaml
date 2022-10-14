@@ -1,5 +1,6 @@
 name: Registration Request
 title: 'Registration Request: [ your link relation name ]'
+about: 'For requests to register a Link Relation Type'
 labels: new registration
 body:
       - type: markdown
