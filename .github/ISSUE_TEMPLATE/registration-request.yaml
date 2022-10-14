@@ -28,7 +28,7 @@ body:
         id: reference
         attributes:
           label: Reference
-          description: A URL referring to the link relation's definition.'
+          description: A URL referring to the link relation's definition.
         validations:
           required: true
       - type: textarea
