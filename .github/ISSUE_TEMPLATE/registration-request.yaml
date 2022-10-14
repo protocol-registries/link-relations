@@ -1,8 +1,6 @@
 name: Registration Request
-about: For requests to register a new Link Relation Type
 title: 'Registration Request: [ your link relation name ]'
 labels: new registration
-assignees: ''
 body:
       - type: markdown
         attributes:
@@ -12,22 +10,22 @@ body:
             - You have checked [the registry](https://www.iana.org/assignments/link-relations/) and found no current link relation types that meet your needs.
             - Your specification reference URL is stable; ideally, managed by a widely-recognised standards development organisation (e.g., published as an RFC). Otherwise, please give additional information.
       - type: input
+        id: name
         attributes:
-          id: name
           label: Relation Name
           description: The link relation name; must conform to the constraints in the RFC.
         validations:
           required: true
       - type: input
+        id: description
         attributes:
-          id: description
           label: Description
           description: A description of the link relation; see the registry for examples.
         validations:
           required: true
       - type: input
+        id: reference
         attributes:
-          id: reference
           label: Reference
           description: A URL referring to the link relation's definition.'
         validations:
