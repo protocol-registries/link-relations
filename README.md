@@ -25,6 +25,10 @@ There are many ways to fill out the `description` field, but in general it's goo
 
 This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reaonable plan to promote specification stability.
 
+Specifications that are hosted on single-purpose Web sites or GitHub repositories are not eligible for registration unless they demonstrate significant deployment and/or community buy-in. In particular, single-owner GitHub repositories are not suitable specification references.
+
+The specification document must define the registered value as a well-known URI. Requests to register terms specified for other purposes will be rejected.
+
 ## When to Register
 
 Generally, a registration request should be made when your document is mature enough for wide review. 
