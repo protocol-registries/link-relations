@@ -27,7 +27,7 @@ This registry requires a stable reference for a specification document. Publicat
 
 Specifications that are hosted on single-purpose Web sites or GitHub repositories are not eligible for registration unless they demonstrate significant deployment and/or community buy-in. In particular, single-owner GitHub repositories are not suitable specification references.
 
-The specification document must define the registered value as a well-known URI. Requests to register terms specified for other purposes will be rejected.
+The specification document must define the registered value as a link relation. Requests to register terms specified for other purposes will be rejected.
 
 ## When to Register
 
